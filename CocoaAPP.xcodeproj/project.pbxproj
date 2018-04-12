@@ -11,6 +11,11 @@
 		5EDDEA02207F365E008577DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EDDEA01207F365E008577DE /* Assets.xcassets */; };
 		5EDDEA05207F365E008577DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EDDEA03207F365E008577DE /* MainMenu.xib */; };
 		5EDDEA08207F365E008577DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDDEA07207F365E008577DE /* main.m */; };
+		5EDDEA19207F3698008577DE /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDDEA10207F3697008577DE /* MainWindow.m */; };
+		5EDDEA1B207F3698008577DE /* FirstWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EDDEA12207F3698008577DE /* FirstWindowController.xib */; };
+		5EDDEA1C207F3698008577DE /* FirstWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDDEA14207F3698008577DE /* FirstWindowController.m */; };
+		5EDDEA1D207F3698008577DE /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDDEA15207F3698008577DE /* MainWindowController.m */; };
+		5EDDEA1E207F3698008577DE /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EDDEA16207F3698008577DE /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,14 @@
 		5EDDEA06207F365E008577DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EDDEA07207F365E008577DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EDDEA09207F365E008577DE /* CocoaAPP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaAPP.entitlements; sourceTree = "<group>"; };
+		5EDDEA0F207F3697008577DE /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		5EDDEA10207F3697008577DE /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
+		5EDDEA12207F3698008577DE /* FirstWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstWindowController.xib; sourceTree = "<group>"; };
+		5EDDEA13207F3698008577DE /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		5EDDEA14207F3698008577DE /* FirstWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstWindowController.m; sourceTree = "<group>"; };
+		5EDDEA15207F3698008577DE /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		5EDDEA16207F3698008577DE /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		5EDDEA17207F3698008577DE /* FirstWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstWindowController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +74,14 @@
 				5EDDEA06207F365E008577DE /* Info.plist */,
 				5EDDEA07207F365E008577DE /* main.m */,
 				5EDDEA09207F365E008577DE /* CocoaAPP.entitlements */,
+				5EDDEA17207F3698008577DE /* FirstWindowController.h */,
+				5EDDEA14207F3698008577DE /* FirstWindowController.m */,
+				5EDDEA12207F3698008577DE /* FirstWindowController.xib */,
+				5EDDEA0F207F3697008577DE /* MainWindow.h */,
+				5EDDEA10207F3697008577DE /* MainWindow.m */,
+				5EDDEA13207F3698008577DE /* MainWindowController.h */,
+				5EDDEA15207F3698008577DE /* MainWindowController.m */,
+				5EDDEA16207F3698008577DE /* MainWindowController.xib */,
 			);
 			path = CocoaAPP;
 			sourceTree = "<group>";
@@ -124,6 +145,8 @@
 			files = (
 				5EDDEA02207F365E008577DE /* Assets.xcassets in Resources */,
 				5EDDEA05207F365E008577DE /* MainMenu.xib in Resources */,
+				5EDDEA1E207F3698008577DE /* MainWindowController.xib in Resources */,
+				5EDDEA1B207F3698008577DE /* FirstWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EDDEA1D207F3698008577DE /* MainWindowController.m in Sources */,
 				5EDDEA08207F365E008577DE /* main.m in Sources */,
 				5EDDEA00207F365D008577DE /* AppDelegate.m in Sources */,
+				5EDDEA19207F3698008577DE /* MainWindow.m in Sources */,
+				5EDDEA1C207F3698008577DE /* FirstWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

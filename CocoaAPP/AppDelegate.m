@@ -10,16 +10,23 @@
 
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    
+    [self initMainWindow];
+    
 }
 
-
+- (void)initMainWindow{
+    
+    _mainWindowC = [[MainWindowController alloc]initWithWindowNibName:@"MainWindowController"];
+    [[_mainWindowC window] center];
+    [_mainWindowC.window orderFront:nil];
+    
+}
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
 }
